@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    background: white url(Images/background_image.jpg) no-repeat scroll top center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.left {
+    float: left;
+    width: 30%;
+    height: 100vh;
+}
+
+.time {
+    height: max-content;
+}
+
+.time .clock {
+    padding-top: 10%;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+}
+.time .date {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.left .rss {
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 20px;
+    height: 70%;
+    width: 90%;
+    margin: 10px auto;
+    overflow-y: hidden;
+}
+.right {
+    float: right;
+    width: 70%;
+}
+
+.clear {
+    clear: both;
+}
+
+.search input {
+    display: block;
+    width: 70%;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid black;
+    margin: 7% auto;
+    font-size: 20px;
+}
+.icon_box {
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.icon {
+    width: 60px; 
+    height: 60px; 
+    border-radius: 15px; 
+    background-color: white;
+    margin: 15px;
+    float: left;
+}
+
+.icon a img {
+    border-radius: 15px;
+}

@@ -1,0 +1,8 @@
+{
+    "chrome_url_overrides": {
+       "newtab": "Xtab.html"
+    },
+     "manifest_version": 2,
+    "name": "Xtab",
+    "version": "0.0.1"
+ }
